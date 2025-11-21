@@ -1,1 +1,9 @@
-spring.application.name=stabilisator
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/mydb
+    username: myuser
+    password: mypass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
